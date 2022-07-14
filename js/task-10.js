@@ -28,6 +28,7 @@ createBtnEl.addEventListener(`click`, createBoxes);
 
 function destroyBoxes() {
   boxesEl.innerHTML = "";
+  geometry = 30;
 }
 
 destroyBtnEl.addEventListener(`click`, destroyBoxes);
